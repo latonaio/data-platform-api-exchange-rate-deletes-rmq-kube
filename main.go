@@ -106,7 +106,7 @@ func getAccepter(input *dpfm_api_input_reader.SDC) []string {
 
 	if accepter[0] == "All" {
 		accepter = []string{
-			"QuantityUnit",
+			"ExchangeRate",
 		}
 	}
 	return accepter
